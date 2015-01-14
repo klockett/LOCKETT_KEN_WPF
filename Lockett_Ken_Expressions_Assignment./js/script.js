@@ -1,5 +1,2 @@
-//Expressions - Age Example
+//Ken Lockett 01/14/2015 Expressions_Assignment
 
-var yearBorn = 1976;
-var age = 2015 - yearBorn
-console.log(age);
