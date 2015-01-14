@@ -8,9 +8,9 @@
  //console.log(sparkysHumanAge)
 
 //Slice of pie part 1
-var slicesPerPizza = 8;
-var peopleAtTheParty = 15;
-var pizzasOrdered = 8;
+//var slicesPerPizza = 8;
+//var peopleAtTheParty = 15;
+//var pizzasOrdered = 8;
 
-var slicesPerPerson = pizzasOrdered * slicesPerPizza/peopleAtTheParty;
-console.log(slicesPerPerson);
+//var slicesPerPerson = pizzasOrdered * slicesPerPizza/peopleAtTheParty;
+//console.log(slicesPerPerson);
