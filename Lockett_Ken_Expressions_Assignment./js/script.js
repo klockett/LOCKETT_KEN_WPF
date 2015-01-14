@@ -20,6 +20,12 @@ var airJordanStylesAndCost = ["Air JordanRetro 1 $200", "Air JordanRetro 4 $200"
 // A String  variable for output
 var airJordanShoeCost= prompt("Please input the cost of your shoes 200");
 var tax= prompt("Please input the \(State Tax rate of 1.09\).\n A $3.00 Shipping charge also will be added")
+var toalCost= alert("Total Cost:$221.00");
 var totalCost = airJordanShoeCost * tax + shipCost;
 
+console.log(totalCost);
+
+// Assignment Operators
+var totalCost = 221;
+totalCost = totalCost - totalCost + shipCost + tax * airJordanShoeCost;
 console.log(totalCost);
