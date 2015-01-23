@@ -14,6 +14,23 @@ var totalAmount;
 totalAmount= deliveryFee - deliveryFee + cheesePizza + pepperoniPizza
 console.log(totalAmount)
 
+//2 Conditional Statements plus 1 with Else if
+if(cheesePizza < pepperoniPizza){
+//code performed if code is true
+ console.log("Then buy 2 boxes ");
+}
+
+if(cheesePizza > pepperoniPizza){
+
+
+  console.log("Then but 1 box");
+
+} else if(cheesePizza<=10){
+  console.log("Then buy 2 Cheese Pizzas for $5(EACH) or 1 Pepperoni Pizza for $10");
+//Code performed if false
+
+}
+
 
 
 
