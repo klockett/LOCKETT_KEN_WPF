@@ -5,7 +5,6 @@
 //Given variables listed
 var cheesePizza=5;
 var pepperoniPizza=10;
-var tip;
 var deliveryFee="3";
 var totalAmount;
 
@@ -40,6 +39,36 @@ if(cheesePizza < pepperoniPizza && deliveryFee > 4){
 } else{
   console.log("Then go pickup your Pizza yourself")
 }
+
+//3 Validated Prompts
+cheesePizza = prompt("Please type in Cheese Pizza");
+
+if(cheesePizza === ""){
+  console.log("left it blank");
+
+  cheesePizza = prompt("Please dont leave blank. Please type in Cheese Pizza!");
+
+}
+
+pepperoniPizza = prompt("Please type in Pepperoni Pizza");
+
+if(pepperoniPizza === ""){
+  console.log("left it blank");
+
+  pepperoniPizza = prompt("Please dont leave blank. Please type in Pepperoni Pizza!");
+
+}
+
+deliveryFee = prompt("Please type in 3 for delivery fee");
+
+if(deliveryFee === ""){
+  console.log("left it blank");
+
+  deliveryFee = prompt("Please dont leave blank. Please type in 3 for delivery fee!");
+
+}
+
+
 
 
 
