@@ -34,6 +34,13 @@ if(cheesePizza > pepperoniPizza){
 //1 Ternary Conditional statement
 (cheesePizza>10)? console.log("You can Buy 1 Cheese Pizza!"):console.log("Then buy 1 Pepperoni Pizza")
 
+//1 logical Operator used
+if(cheesePizza < pepperoniPizza && deliveryFee > 4){
+  console.log("Then buy 1 cheese Pizza");
+} else{
+  console.log("Then go pickup your Pizza yourself")
+}
+
 
 
 
