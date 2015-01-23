@@ -19,7 +19,7 @@ var totalCost = airJordanShoeCost * tax + shipCost;  // shoe cost  was multiplie
 //Product Arrays with Product Styles and cost
 var airJordanStylesAndCost = ["Air JordanRetro 1 $200", "Air JordanRetro 4 $200","Air Jordan Retro 11 $200"];
 
-//console.log(airJordanStylesAndCost);            // Console.log was ran for arrays and each item was listed in test
+console.log(airJordanStylesAndCost);            // Console.log was ran for arrays and each item was listed in test
 
 // A String  variable for output
 prompt("Please input the cost of your shoes 200");//This prompt will ask to iput 200 the cost of the shoe
