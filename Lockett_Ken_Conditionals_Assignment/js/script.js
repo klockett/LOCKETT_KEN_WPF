@@ -23,7 +23,7 @@ if(cheesePizza < pepperoniPizza){
 if(cheesePizza > pepperoniPizza){
 
 
-  console.log("Then but 1 box");
+  console.log("Then buy 1 box");
 
 } else if(cheesePizza<=10){
   console.log("Then buy 2 Cheese Pizzas for $5(EACH) or 1 Pepperoni Pizza for $10");
