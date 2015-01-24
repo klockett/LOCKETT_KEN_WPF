@@ -73,7 +73,10 @@ alert("Your total amount is $" + totalAmount);      //Concatenating alert to sho
 
 
 
+/* Many Test were ran and successful also correction were in the Arithmetic area. I also made some corrections with
+the prompts
 
+*/
 
 
 
