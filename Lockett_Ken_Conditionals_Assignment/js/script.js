@@ -3,11 +3,12 @@
   01/18/2015
  */
 //Given variables listed
-var cheesePizza=5;
-var pepperoniPizza=10;
-var deliveryFee="3";
-var totalAmount;
+var cheesePizza =5;
+var pepperoniPizza =10;
+var deliveryFee = 3;
+var totalAmount = deliveryFee + pepperoniPizza + cheesePizza*2 // 2 Different Arithmetic Operators
 
+console.log(totalAmount)
 //2 Different  Arithmetic Operators
 
 totalAmount= deliveryFee - deliveryFee + cheesePizza + pepperoniPizza
@@ -41,7 +42,7 @@ if(cheesePizza < pepperoniPizza && deliveryFee > 4){
 }
 
 //3 Validated Prompts
-cheesePizza = prompt("Please type in Cheese Pizza");
+var cheesePizza = prompt("Please type in Cheese Pizza");
 
 if(cheesePizza === ""){
   console.log("left it blank");
@@ -50,7 +51,7 @@ if(cheesePizza === ""){
 
 }
 
-pepperoniPizza = prompt("Please type in Pepperoni Pizza");
+var pepperoniPizza = prompt("Please type in Pepperoni Pizza");
 
 if(pepperoniPizza === ""){
   console.log("left it blank");
@@ -59,7 +60,7 @@ if(pepperoniPizza === ""){
 
 }
 
-deliveryFee = prompt("Please type in 3 for delivery fee");
+var deliveryFee = prompt("Please type in 3 for delivery fee");
 
 if(deliveryFee === ""){
   console.log("left it blank");
@@ -67,7 +68,8 @@ if(deliveryFee === ""){
   deliveryFee = prompt("Please dont leave blank. Please type in 3 for delivery fee!");
 
 }
-
+console.log("Your total amount is $" + totalAmount); //Concatenating console.log to Print total amount
+alert("Your total amount is $" + totalAmount);      //Concatenating alert to show total amount
 
 
 
