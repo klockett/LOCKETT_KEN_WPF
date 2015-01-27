@@ -62,6 +62,7 @@ if(pepperoniPizza === ""){
 
 var deliveryFee = prompt("Please type in 3 for delivery fee");
 
+
 if(deliveryFee === ""){
   console.log("left it blank");
 
