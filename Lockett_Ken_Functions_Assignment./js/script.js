@@ -16,3 +16,13 @@ function totalIceCreamScoops (iceCreamScoops, whipCream, waffleCone) { //3 param
 totalIceCreamScoops(4, 1, 2);// pass used
 totalIceCreamScoops(7, 1, 2);//pass ussed
 console.log(total);
+
+//1 Anonymous Function
+    var totalIceCreamScoops = function(iceCreamScoops, whipCream, waffleCone) {
+
+        var total = iceCreamScoops + whipCream + waffleCone
+    return total;
+}
+    var a = totalIceCreamScoops(1, 1, 2);
+
+     console.log(a);
