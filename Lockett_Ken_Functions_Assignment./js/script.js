@@ -22,18 +22,19 @@ console.log(total);
 //1 Anonymous Function
     var totalIceCreamScoops = function(iceCreamScoops, whipCream, waffleCone) {// 3 parameters
 
-        var total = iceCreamScoops + whipCream + waffleCone
+        var total = iceCreamScoops + whipCream + waffleCone;
     return total;
 }
     var a = totalIceCreamScoops(1, 1, 2); // arguments
 
      console.log(a);
 
+//validated 3 Prompts with loops
  var iceCreamScoops = 4;
 
-var iceCreamScoops = prompt("Please put how many scoops of Ice Cream you would like!")
+var iceCreamScoops = prompt("Please put how many scoops of Ice Cream you would like!");
 
-if(iceCreamScoops == ""){
+while(iceCreamScoops == ""){
          console.log("Left it Blank");
  iceCreamScoops = prompt("Please dont leave blank How many scoops would you like?");
 }
@@ -46,9 +47,9 @@ if(iceCreamScoops == ""){
 
 var whipCream = 4;
 
-var whipCream = prompt("Please put how many Sprays of Whip Cream you would like!")
+var whipCream = prompt("Please put how many Sprays of Whip Cream you would like!");
 
-if(whipCream == ""){
+while(whipCream == ""){
     console.log("Left it Blank");
     whipCream = prompt("Please dont leave blank How many Sprays would you like?");
 }
@@ -61,9 +62,9 @@ while (whipCream > 0) {
 
 var cherries = 4;
 
-var cherries = prompt("Please put how many cherries would like on top!")
+var cherries = prompt("Please put how many cherries would like on top!");
 
-if(cherries == ""){
+while(cherries == ""){
     console.log("Left it Blank");
     cherries = prompt("Please dont leave blank How many Cherries would you like?");
 }
@@ -73,3 +74,10 @@ while (cherries > 0) {
 
     cherries--;
 }
+
+/*
+ I tested prompts with putting in different values and all returned differently  in the loops and all
+ prompts were while validated
+
+
+  */
